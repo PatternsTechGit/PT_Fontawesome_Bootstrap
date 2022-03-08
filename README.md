@@ -1,22 +1,18 @@
 # Incorporating Fontawesome & Bootstrap in Anguar application
 
-## Font Awesome
 
 Font Awesome is the Internet's icon library and toolkit that can be easily used by developers.
 
 Here is the list of icon categories :
 
 > Sold - <font color="grey"> These icons are completly filled.</font>
-> ![Solid](https://user-images.githubusercontent.com/100709775/157256130-7cc5d4a2-7e3b-4b59-acc0-28ed5992a73d.png)
 
-> Regular - <font color="grey"> These icons are normal icons as less filled as compared to solid icons.</font>
-![Regular](https://user-images.githubusercontent.com/100709775/157256134-eb7ee92d-d28f-429e-8c79-d50243a640b3.png)
+> Regular - <font color="grey"> These icons are normal icons and less filled as compared to solid icons.</font>
 
 >Light - <font color="grey">These icons are light weight which are not filled.</font>
-![Light](https://user-images.githubusercontent.com/100709775/157256136-4b4cbc2b-ce90-4ee8-9ea3-ceed7372e54c.PNG)
 
 >Thin - <font color="grey">These icons have very thin outline.</font>
-![Thin](https://user-images.githubusercontent.com/100709775/157256141-5af04b94-b995-4af1-9793-2ef751282291.PNG)
+
 
 Here are the steps to install font awesome in angular application.
 
@@ -69,8 +65,10 @@ To show the links we will be using font-awesome icons.
   <li><i class="fa fa-unlock"></i> Invoice</li>
 </ul>
 ```
+
 Run the project and check the fontawesome as below :
-![Web](https://user-images.githubusercontent.com/100709775/157256144-b3c13e14-4190-4467-a44f-cec9372e60d8.PNG)
+
+![Web_fontawesome](https://user-images.githubusercontent.com/100709775/157281229-647dd4d9-8641-4961-8fe4-9e5e2a42fa14.PNG)
 
 
 if you want to use font-awesome using HTML markup click here  
@@ -113,5 +111,7 @@ Add buttons to confirm bootstrap is working.
 </div>
 
 ```
-Run the project and check the fontawesome as below :
-![Web](https://user-images.githubusercontent.com/100709775/157256144-b3c13e14-4190-4467-a44f-cec9372e60d8.PNG)
+
+Run the project and check the bootstrap & margin-left is working as below :
+
+![Web_Bootstrap](https://user-images.githubusercontent.com/100709775/157279992-a246ed18-7279-45b1-a842-d4ed71195244.png)
