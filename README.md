@@ -16,45 +16,39 @@ Here is the list of icon categories :
 
 Here are the steps to install font awesome in angular application.
 
+If you want to scaffold a new angular application [Click Here](https://material.angular.io/guide/getting-started)
+
 <font size="5" color="grey">**Step 1**</font> 
 
 
-install npm package using command as below :
-
+Install npm package using command as below :
+```
         npm i @fortawesome/fontawesome-free
+```
+ Once the package is installed, you will see font-awesome folder in node_module folder as below :
+
+![Modules Folder](https://user-images.githubusercontent.com/100709775/157256091-e973168e-38a6-4457-b43d-29abb4d3e4cb.png)
 
 <font size="5" color="grey">**Step 2**</font>  
-import .css file in angular.json file :
+Import .css file in angular.json file :
 
 ```javascript
      "styles": [
               "src/styles.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ]
 ```
-Once the package is installed, you will see font-awesome folder in node_module folder as below :
-
-![Modules Folder](https://user-images.githubusercontent.com/100709775/157256091-e973168e-38a6-4457-b43d-29abb4d3e4cb.png)
+Styles array is basically used for including external stylesheets.
 
 
 As there are alot of files in @fontawesome/fontawesome-free/css folder
 
-## all.css
-This files contains styles of all categories of icons.
-
-## all.min.css
-This files contains styles of all categories of icons but its compressed verison of all.css file which does not have any space in it.
-
-## solid.css
-This files contains styles for solid icons only.
-
-## regular.css
-This files contains styles for regular icons only.
+we have .css files agains each icon catagory of fontawesome and there are .min.css versions are as well. Here we are using only 'all.min.css'
 
 <font size="5" color="grey">**Step 3**</font>  
 As we are making a banking application and in a bank application we will have links to navigate to different components (e.g. create account, manage account) of our application.
 
-To show the links we will be using font-awesome icons.
+To show the links we will be using font-awesome icons in app.component.html
 
 
 ```javascript
@@ -66,9 +60,9 @@ To show the links we will be using font-awesome icons.
 </ul>
 ```
 
-Run the project and check the fontawesome as below :
+Run the project and check the fontawesome working as below :
 
-![Web_fontawesome](https://user-images.githubusercontent.com/100709775/157281229-647dd4d9-8641-4961-8fe4-9e5e2a42fa14.PNG)
+![1](https://user-images.githubusercontent.com/100709775/157669867-fb2a7088-c045-4dd1-b9f7-e1aa66bd08ab.png)
 
 
 if you want to use font-awesome using HTML markup click here  
@@ -88,6 +82,7 @@ install npm package using command as below :
 ```
 npm install bootstrap
 ```
+This will intall latest library of bootstrap.
 
 <font size="5" color="grey">**Step 2**</font> 
 
@@ -101,7 +96,8 @@ import .css file in angular.json file :
 ```
 <font size="5" color="grey">**Step 3**</font> 
 
-Add buttons to confirm bootstrap is working.
+Add buttons in app.component.html to confirm bootstrap is working.
+Here btn-primary,btn-secondary,btn-success are the bootstrap classes, where as 'ml-5' is used for bootstrap margin left.
 
 ```javascript
 <div class="container">
@@ -114,4 +110,5 @@ Add buttons to confirm bootstrap is working.
 
 Run the project and check the bootstrap & margin-left is working as below :
 
-![Web_Bootstrap](https://user-images.githubusercontent.com/100709775/157279992-a246ed18-7279-45b1-a842-d4ed71195244.png)
+![Web_Bootstrap](https://user-images.githubusercontent.com/100709775/157658547-9966535f-5091-4cd1-81af-6d3b384a0029.png)
+
