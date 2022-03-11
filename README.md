@@ -72,7 +72,7 @@ https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-a
 
 
 # Bootstrap
-Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. For more details [Click Here](https://getbootstrap.com/)
 
 Here are the steps to install bootstrap in angular application.
 
@@ -97,7 +97,7 @@ import .css file in angular.json file :
 <font size="5" color="grey">**Step 3**</font> 
 
 Add buttons in app.component.html to confirm bootstrap is working.
-Here btn-primary,btn-secondary,btn-success are the bootstrap classes, where as 'ml-5' is used for bootstrap margin left.
+Here btn-primary,btn-secondary,btn-success are the bootstrap styles for buttons, where as 'ml-5' is bootstrap style for spacing. for more bootstrap button styles [Click Here](https://www.w3schools.com/bootstrap5/bootstrap_buttons.php) and for spacing style [Click Here](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 
 ```javascript
 <div class="container">
