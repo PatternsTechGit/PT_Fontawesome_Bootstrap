@@ -16,7 +16,7 @@ Here is the list of icon categories :
 
 Here are the steps to install font awesome in angular application.
 
-If you want to scaffold a new angular application [Click Here](https://material.angular.io/guide/getting-started)
+If you want to Scaffold a new angular application [Click Here](https://github.com/PatternsTechGit/PT_AngularCLI)
 
 <font size="5" color="grey">**Step 1**</font> 
 
