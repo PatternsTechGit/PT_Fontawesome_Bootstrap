@@ -97,7 +97,7 @@ import .css file in angular.json file :
 <font size="5" color="grey">**Step 3**</font> 
 
 Add buttons in app.component.html to confirm bootstrap is working.
-Here btn-primary,btn-secondary,btn-success are the bootstrap styles for buttons, where as 'ml-5' is bootstrap style for spacing. for more bootstrap button styles [Click Here](https://www.w3schools.com/bootstrap5/bootstrap_buttons.php) and for spacing style [Click Here](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+Here `btn-primary`, `btn-secondary`, `btn-success` are the bootstrap styles for buttons, where as `ml-5` is bootstrap style for spacing. for more bootstrap button styles [Click Here](https://www.w3schools.com/bootstrap5/bootstrap_buttons.php) and for spacing style [Click Here](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 
 ```javascript
 <div class="container">
