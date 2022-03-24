@@ -1,5 +1,7 @@
-# Incorporating Fontawesome & Bootstrap in Anguar application
+# Incorporating Fontawesome & Bootstrap in Angular application
 
+
+## What is Font Awesome 
 
 Font Awesome is the Internet's icon library and toolkit that can be easily used by developers.
 
@@ -13,24 +15,32 @@ Here is the list of icon categories :
 
 >Thin - <font color="grey">These icons have very thin outline.</font>
 
+## About this exercise
 
-Here are the steps to install font awesome in angular application.
+Previously we scaffold a new Angular application using 
+the `ng new` command. 
 
-If you want to Scaffold a new angular application [Click Here](https://github.com/PatternsTechGit/PT_AngularCLI)
+In this exercise we will
 
-<font size="5" color="grey">**Step 1**</font> 
+* Integrate Fontawesome in an Angular application.
+* Add Bootstrap in an Angular application. 
+
+
+<font size="5" color="grey">**Step 1 : Installing Fontawesome library**</font> 
 
 
 Install npm package using command as below :
+
 ```
         npm i @fortawesome/fontawesome-free
 ```
+
  Once the package is installed, you will see font-awesome folder in node_module folder as below :
 
 ![Modules Folder](https://user-images.githubusercontent.com/100709775/157256091-e973168e-38a6-4457-b43d-29abb4d3e4cb.png)
 
-<font size="5" color="grey">**Step 2**</font>  
-Import .css file in angular.json file :
+<font size="5" color="grey">**Step 2 : Configuring Fontawesome**</font>  
+Import `all.min.css` file in angular.json file :
 
 ```javascript
      "styles": [
@@ -38,14 +48,15 @@ Import .css file in angular.json file :
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ]
 ```
+
 Styles array is basically used for including external stylesheets.
 
 
-As there are alot of files in @fontawesome/fontawesome-free/css folder
+As there are a lot of files in @fontawesome/fontawesome-free/css folder
 
-we have .css files agains each icon catagory of fontawesome and there are .min.css versions are as well. Here we are using only 'all.min.css'
+we have .css files against each icon category of fontawesome and there are .min.css versions are as well. Here we are using only 'all.min.css'
 
-<font size="5" color="grey">**Step 3**</font>  
+<font size="5" color="grey">**Step 3 : Using List**</font>  
 As we are making a banking application and in a bank application we will have links to navigate to different components (e.g. create account, manage account) of our application.
 
 To show the links we will be using font-awesome icons in app.component.html
@@ -71,22 +82,25 @@ https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-a
 
 
 
-# Bootstrap
+# What is  Bootstrap
+
 Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. For more details [Click Here](https://getbootstrap.com/)
 
 Here are the steps to install bootstrap in angular application.
 
-<font size="5" color="grey">**Step 1**</font> 
+<font size="5" color="grey">**Step 1: Installing Bootstrap**</font> 
 
 install npm package using command as below :
+
 ```
 npm install bootstrap
 ```
-This will intall latest library of bootstrap.
 
-<font size="5" color="grey">**Step 2**</font> 
+This will install latest library of bootstrap.
 
-import .css file in angular.json file :
+<font size="5" color="grey">**Step 2: Configuring Bootstrap**</font> 
+
+import `bootstrap.css` file in angular.json file :
 
 ```javascript
      "styles": [
@@ -94,7 +108,8 @@ import .css file in angular.json file :
               "./node_modules/bootstrap/dist/css/bootstrap.css"
             ]
 ```
-<font size="5" color="grey">**Step 3**</font> 
+
+<font size="5" color="grey">**Step 3: Using Buttons**</font> 
 
 Add buttons in app.component.html to confirm bootstrap is working.
 Here `btn-primary`, `btn-secondary`, `btn-success` are the bootstrap styles for buttons, where as `ml-5` is bootstrap style for spacing. for more bootstrap button styles [Click Here](https://www.w3schools.com/bootstrap5/bootstrap_buttons.php) and for spacing style [Click Here](https://getbootstrap.com/docs/4.0/utilities/spacing/)
@@ -111,4 +126,3 @@ Here `btn-primary`, `btn-secondary`, `btn-success` are the bootstrap styles for 
 Run the project and check the bootstrap & margin-left is working as below :
 
 ![Web_Bootstrap](https://user-images.githubusercontent.com/100709775/157658547-9966535f-5091-4cd1-81af-6d3b384a0029.png)
-
