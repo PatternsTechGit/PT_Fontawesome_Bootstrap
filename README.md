@@ -17,7 +17,7 @@ Here is the list of icon categories :
 
 ## About this exercise
 
-Previously we scaffold a new Angular application using 
+Previously we scaffolded a new Angular application using 
 the `ng new` command. 
 
 In this exercise we will
